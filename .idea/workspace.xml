@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18e9094c-17ba-40cb-b88e-7f33a64e75b5" name="Changes" comment="innit project">
-      <change beforePath="$PROJECT_DIR$/.idea/html/20250322.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/F8-K14-personal/25032025.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/F8-K14-personal/test-folder2/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/F8-K14-personal/test-folder2/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/F8-K14-personal/test-folder2/tabletest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/F8-K14-personal/20250322.html" beforeDir="false" afterPath="$PROJECT_DIR$/F8-K14-personal/20250322.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,21 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vietanh1603"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vietanh1603&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vietanh1603/F8-K14-PERSONAL.git&quot;,
     &quot;accountId&quot;: &quot;72f5609e-31c9-4678-8166-38ac85996759&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ufqc2Zf3s8oGGcxW5QDePMvRDb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JavaScript Debug.20250322.html.executor": "Run",
+    "JavaScript Debug.25032025.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -50,6 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742650051365</updated>
-      <workItem from="1742650052450" duration="673000" />
+      <workItem from="1742650052450" duration="5346000" />
+      <workItem from="1742903991781" duration="10649000" />
     </task>
     <task id="LOCAL-00001" summary="innit project">
       <option name="closed" value="true" />
@@ -102,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742650728258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="innit project">
+      <option name="closed" value="true" />
+      <created>1742651538997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742651538997</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
