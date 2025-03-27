@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Form</h1>
+<form
+        action="https://api-gateway.fullstack.edu.vn/action_page.php"
+method="get"
+>
+<!--    action la dia chi-->
+<!--    method la -->
+<!--input la the rong-->
+    <label for="name">Nhap ho va ten</label>
+
+    <br>
+    <input id="name" placeholder="Enter Name" name="name" type="text" required/>
+    <label for="pass" > Nhap password</label>
+    <input type="password" id="pass" placeholder="Enter Password" name="pass" value="123456789" disabled />
+    <br>
+    <label for="age">Nhap tuoi</label>
+    <br>
+    <input id="age" placeholder="tuoi" name="age" type="number"/>
+    <br>
+    <label for="address">Nhap Dia chi</label>
+    <br>
+    <input id="address" placeholder="Address" name="addresss" value="ha noi" disabled/>
+    <br>
+    <label for="email"> Nhap Email</label>
+    <br>
+    <input type="email" id="email" placeholder="Email" name="email" value="havietanh@gmail.com" readonly/>
+    <br>
+    <label> Nhap gioi tinh:</label>
+    <br>
+    <label for="male">male</label>
+    <input id="male" name="gender" type="radio" value="male"/>
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <br>
+    <label>Nhap lang:</label>
+    <label >Tieng viet</label>
+    <input id="vn" value="vn" type="checkbox" name="language[]" checked="checked"/>
+    <label>tieng anh</label>
+    <input type="checkbox" value="en" id="en" name="language[]" />
+    <label>tieng nhat</label>
+    <input type="checkbox" value="ja" id="ja"  name="language[]"/>
+    <br>
+    <label>Ban hoc code o dau?</label>
+    <select name="center" id="center">
+        <option value="f8">f8</option>
+        <option value="fb">fb</option>
+        <option value="f88">f88</option>
+        <option value="vanh">vanh</option>
+        <option value="eng">eng</option>
+    </select>
+    <br>
+    <label>luong cua ban:</label>
+    <input type="range" min="0" max="100" name="salary">
+    <br>
+    <label>mo ta ban than</label>
+    <br>
+    <textarea  placeholder="description" name="description" id="" cols="30" rows="5">
+        hello anh em
+        an ngon khong
+    </textarea>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
