@@ -11,7 +11,7 @@
 <h1>Form</h1>
 <form
         action="https://api-gateway.fullstack.edu.vn/action_page.php"
-method="get"
+method="get" enctype="multipart/form-data">
 >
 <!--    action la dia chi-->
 <!--    method la -->
@@ -68,6 +68,10 @@ method="get"
         hello anh em
         an ngon khong
     </textarea>
+    <br>
+    <label for="cv">your cv</label>
+    <br>
+    <input name="cv" id="cv" type="file" multiple accept=".png" hidden />
     <br>
     <input type="submit">
 </form>
