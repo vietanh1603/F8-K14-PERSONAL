@@ -1,0 +1,27 @@
+/*     selector{
+css code
+}
+selector: tag name/ class name / id name,....
+ */
+p{
+    color: red;
+}
+#k14 {
+    color:brown;
+}
+#k15 {
+    color: blueviolet;
+}
+.k15 {
+    color: orange;
+}
+.ex03 p {
+    color:darkolivegreen;
+}
+.ex03 > p {
+    color:brown;
+/*  dung truc tiep the trong class  */
+}
+.ex03 > .ex03-1 > p {
+    color:dodgerblue;
+}
