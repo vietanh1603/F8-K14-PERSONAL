@@ -1,0 +1,78 @@
+1<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    /*.container > ul > li {*/
+    /*    color: red;*/
+    /*}*/
+    /*ul > li {*/
+    /*    !* > la con truc tiep *!*/
+    /*    color: blue;*/
+    /*}*/
+    /*ul > span ~ li {*/
+    /*!*dau ~ la tim nhung the con cung cap*!*/
+    /*    color: yellow;*/
+    /*}*/
+    /*ul li {*/
+    /*    !*' ' la tap con*!*/
+    /*    color: red;*/
+    /*}*/
+    /*ul > span ~ li, .footer ul li {*/
+    /*    !*',' selecter1 selecter2 ....-> all of selectors have same css code *!*/
+    /*    color: green;*/
+    /*}*/
+    /*.footer ul li {*/
+    /*    font-weight: 990;*/
+    /*!*  font-weight la do dam  *!*/
+    /*}*/
+    ul > span + li + li + li {
+
+        /*'+' la chon phan tu dau tien phia sau phan tu duoc chon*/
+        color: red;
+    }
+    .footer ul > li  {
+        color: red;
+    }
+   /*.container form span + input {*/
+   /*     color: red;*/
+   /* }*/
+.container form input[name=name] {
+    color: red;
+}
+
+</style>
+<body>
+<div class="container">
+    <h1>Hoc lap trinh</h1>
+    <form action="">
+        <span></span>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br>
+        <span>dien vao day di anh em0</span>
+        <br>
+        <input type="password" name="password" placeholder="Enter your password">
+    </form>
+    <ul>
+        <span>test</span>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+        <li>docker</li>
+        <li>k8s</li>
+    </ul>
+<div class="footer">
+    <ul>
+        <li>f6</li>
+        <li>f7</li>
+        <li>f8</li>
+        <li>f9</li>
+    </ul>
+</div>
+</div>
+</body>
+</html>

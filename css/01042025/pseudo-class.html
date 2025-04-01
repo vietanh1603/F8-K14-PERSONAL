@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    input:focus {
+        color: red;
+    }
+    ul li:first-child {
+        color: red;
+    }
+    ul li:last-child {
+        color: red;
+    }
+    ul li:nth-child(2) {
+        color: blue;
+    }
+    ul li:nth-of-type(2) {
+        color: green;
+    }
+    input[value='blue']:checked + span {
+        color: blue;
+    }
+    input[value='red']:checked + span {
+        color: red;
+    }
+    input[value='green']:checked + span {
+        color: green;
+    }
+    h1:hover {
+        color: red;
+    }
+    button:active {
+        color: red;
+    }
+</style>
+<body>
+<h1>Pseudo class</h1>
+<input type="text" name="name" placeholder="Enter your name">
+<ul>
+    <span>vanh</span>
+    <li>html</li>
+    <li>css</li>
+    <li>js</li>
+</ul>
+<input type="radio" name="red" id="red" value="red">
+<span>jfhsdj</span>
+<input type="radio" name="red" id="blue" value="blue">
+<span>dkjsdkf</span>
+<input type="radio" name="red" id="green" value="green">
+<span>esfefs</span>
+<br>
+<button>active</button>
+</body>
+</html>
