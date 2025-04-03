@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.item1, .item2, .item3 {
+    padding: 10px;
+    border: 2px solid yellow;
+}
+.supercontainer {
+    height: 250px;
+    width: 250px;
+    border: 1px solid red;
+    margin: auto;
+    position: relative;
+}
+.item2 {
+    /*position: relative;*/
+    /*position: absolute;*/
+    /*an theo the cha gan nhat co position gan nhat*/
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: red;
+    z-index: 3;
+}
+.item3{
+    position: relative;
+    z-index: 3;
+    background: green;
+}
+
+</style>
+<body>
+<div class="supercontainer">
+    <div class="container">
+        <div class="item1">item 1</div>
+        <div class="item2">item 2</div>
+        <div class="item3">item 3</div>
+    </div>
+</div>
+</body>
+</html>

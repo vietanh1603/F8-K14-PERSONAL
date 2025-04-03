@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        border-bottom: 1px solid red;
+        position: relative;
+    }
+    header > ul > li {
+    display: inline-block;
+        padding: 12px;
+    }
+     ul {
+         position: absolute;
+         right: 0;
+         top: 0;
+     }
+     li:hover {
+        cursor: pointer;
+     }
+     .home {
+         display: none;
+     }
+
+     header > ul > li:nth-of-type(2):hover .home {
+        display: block;
+      }
+</style>
+<body>
+<header>
+    <img src="https://fullstack-nodejs.fullstack.edu.vn/assets/f8_icon.png" width="50" alt="logo">
+    <ul>
+        <li>
+            Home
+            <ul class="home">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+        </li>
+        <li>product</li>
+        <li>customs</li>
+        <li>about</li>
+    </ul>
+</header>
+</body>
+</html>
